@@ -1,0 +1,7 @@
+$ git clone --bare https://github.com/hugorcf/Renewable-energy-weather.git
+
+$ cd Renewable-energy-weather.git
+$ git push --mirror https://github.com/KevinAQM/Renewable-Energy-ML.git
+
+$ cd ..
+$ rm -rf Renewable-energy-weather.git
